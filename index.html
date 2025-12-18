@@ -2,23 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Calendar Using JavaScript - GreatStack</title>
+    <title>Rock Paper Scissors Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="hero">
-        <div class="calendar">
-            <div class="left">
-                <p id="date">17</p>
-                <p id="day">Wednesday</p>
-            </div>
-            <div class="right">
-                <p id="month">December</p>
-                <p id="year">2025</p>
-            </div>
-        </div>
+    <h1>Rock Paper Scissors Game</h1>
+    <p>Choose your move:</p>
+    <div class="buttons">
+        <button id="rock">🪨</button>
+        <button id="paper">📄</button>
+        <button id="scissors">✂️</button>
     </div>
+    <p id="result"></p>
+    <p id="scores">
+        Your score: <span id="user-score">0</span>
+        Computer score: <span id="computer-score">0</span>
+    </p>
     <script src="index.js"></script>
 </body>
 </html>
